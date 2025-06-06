@@ -34,7 +34,7 @@ jobs:
         mkdir -p rules/Domain  # 确保目录存在
 
         # 下载 fakeip-filter.list 规则文件
-        curl -sL "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/fakeip-filter.list" -o rules/Domain/fakeip-filter.list
+        curl -sL "https://raw.githubusercontent.com/cqd5686/Rules/refs/heads/main/rules/Domain/fakeip-filter.list" -o rules/Domain/fakeip-filter.list
 
     - name: Convert FakeIP-Filter Rules to YAML
       run: |
