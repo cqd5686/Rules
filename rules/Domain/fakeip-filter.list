@@ -9,6 +9,7 @@
 *.test
 *.local
 *.home.arpa
+ntp.*.cn
 time.*.com
 time.*.gov
 time.*.edu.cn
