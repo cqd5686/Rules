@@ -37,6 +37,7 @@ payload:
   - '*.xrgzs.top'
   - '*.yichafen.com'
   - '*.zyyme.com'
+  - '+.oogm'
   - 'api-verify.dutils.com'
   - 'dl.openwrt.ai'
   - 'g.alicdn.com'
