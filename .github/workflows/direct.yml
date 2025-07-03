@@ -42,8 +42,9 @@ jobs:
         grep -Eo 'DOMAIN-SUFFIX,[^,]+' rules/Domain/direct.list | sed 's/DOMAIN-SUFFIX,//' | sed 's/^/*./' > rules/Domain/direct-domain.list
         # 提取 DOMAIN 规则
         grep -Eo 'DOMAIN,[^,]+' rules/Domain/direct.list | sed 's/DOMAIN,//' >> rules/Domain/direct-domain.list
-        # 提取 DOMAIN-KEYWORD 规则并转换为 +.关键字
-        grep -Eo 'DOMAIN-KEYWORD,[^,]+' rules/Domain/direct.list | sed 's/DOMAIN-KEYWORD,/*./' >> rules/Domain/direct-domain.list
+        # 提取 DOMAIN-KEYWORD 规则并转换为 *.关键字.*
+        grep -Eo 'DOMAIN-KEYWORD,[^,]+' rules/Domain/direct.list | sed 's/DOMAIN-KEYWORD,/.*/' | sed 's/$/.*/' >> rules/Domain/direct-domain.list
+
         
     - name: Convert Direct Rules to YAML
       run: |
