@@ -83,6 +83,7 @@ payload:
   - 'na.b.g-tun.com'
   - 'ntp.*.cn'
   - 'ntp.*.com'
+  - 'ntp.ntsc.ac.cn'
   - 'ntp1.*.com'
   - 'ntp2.*.com'
   - 'ntp3.*.com'
