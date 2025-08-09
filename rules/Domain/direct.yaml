@@ -35,6 +35,7 @@ payload:
   - '*.xrgzs.top'
   - '*.yichafen.com'
   - '*.zyyme.com'
+  - '.*cqd5686.*'
   - '.*oogm.*'
   - 'api-verify.dutils.com'
   - 'cnxiaobai.com'
