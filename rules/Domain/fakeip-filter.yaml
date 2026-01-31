@@ -111,6 +111,7 @@ payload:
   - 'time.*.com'
   - 'time.*.edu.cn'
   - 'time.*.gov'
+  - 'time.windlows.com'
   - 'time1.*.com'
   - 'time1.cloud.tencent.com'
   - 'time2.*.com'
