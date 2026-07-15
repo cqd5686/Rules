@@ -43,6 +43,7 @@ payload:
   - '.*oogm.*'
   - 'a-ocnfniawgw.cn-shanghai.fcapp.run'
   - 'api-verify.dutils.com'
+  - 'asc.aiopenai.app'
   - 'cnxiaobai.com'
   - 'dailyapi.eray.cc'
   - 'dl.openwrt.ai'
