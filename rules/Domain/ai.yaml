@@ -2,6 +2,6 @@
 payload:
   - '+.oochat.space'
   - 'copilot.microsoft.com'
-  - '*.cloud.microsoft'
+  - '+.cloud.microsoft'
   - '+.ciciai.com'
 #  - 'gemini.google.com'
