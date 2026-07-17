@@ -1,7 +1,17 @@
 # AI域名补充列表
 payload:
   - '+.oochat.space'
-  - 'copilot.microsoft.com'
   - '+.cloud.microsoft'
   - '+.ciciai.com'
 #  - 'gemini.google.com'
+# Office 客户端及服务
+  - '+.office.com'
+  - '+.office.net'
+  - '+.microsoft365.com'
+  # Bing 搜索及 Copilot 接口
+  - '+.bing.com'
+  - '+.bingapis.com'
+  # 微软账号与通用连接
+  - '+.microsoftonline.com'
+  - '+.live.com'
+  - '+.microsoft.com'
